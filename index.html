@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google tag (gtag.js) --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XG591J0DBP"></script> 
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7T0EGRR7GF');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>キャピタル・クエスト株式会社 | Capital Quest Corporation, Ltd.</title>
+<meta name="description" content="独立系M&Aアドバイザリー。キャピタル フィナンシャルホールディングス（CFH）グループの一員として、20ヵ国超のグローバル・アライアンス（GAP）を通じてクロスボーダーM&Aアドバイザリーを提供する。">
+<link rel="canonical" href="https://www.capital-qc.co.jp/">
+<!-- Favicon Start -->
+<link rel="icon" type="image/png" href="/assets/logo/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/logo/favicon/favicon.svg" />
+<link rel="shortcut icon" href="/assets/logo/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/logo/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="/assets/logo/site.webmanifest" />
+<!-- Favicon End -->
+<link rel="stylesheet" href="/assets/css/style.css?v=20260513d">
+</head>
+<body>
+
+<!-- ===========================================================
+     HEADER / NAV
+     =========================================================== -->
+<header class="site-header">
+  <div class="site-header__inner"> <a href="/" class="site-logo" aria-label="Capital Quest Corporation, Ltd. トップへ"> <img src="assets/logo/cqc/cqc-logo-transparent.png" alt="Capital Quest Corporation, Ltd."> </a>
+    <button class="site-nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="site-nav"> <span class="site-nav-toggle__bar" aria-hidden="true"></span> </button>
+    <nav class="site-nav" id="site-nav" aria-label="グローバル"> <a href="/" class="is-active">ホーム</a> <a href="about.html">会社情報</a> <a href="services.html">事業内容</a> <a href="track-record.html">過去実績</a> <a href="mailto:info@capital-qc.co.jp?subject=Capital%20Quest%20Corporation%20%E5%85%AC%E5%BC%8FHP%E3%81%8B%E3%82%89%E3%81%AE%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">お問い合わせ</a> </nav>
+    <div class="site-nav__lang" aria-label="言語切替"> <span class="is-active">JP</span> <span aria-hidden="true">/</span> <a href="/en/">EN</a> <span aria-hidden="true">/</span> <a href="/cn/">CN</a> </div>
+  </div>
+</header>
+<main> 
+  
+  <!-- =========================================================
+       HERO  (Houlihan-style full-bleed media / TK→NY→HK→VN crossfade)
+       ========================================================= -->
+  <section class="hero" aria-labelledby="hero-h1">
+    <div class="hero__media" aria-hidden="true">
+      <div class="hero__media-layer is-active" data-scene="tk">
+        <video autoplay muted loop playsinline preload="auto" disablepictureinpicture controlslist="nodownload nofullscreen noremoteplayback" poster="assets/img/hero/hero-tk-poster.jpg">
+          <source src="assets/video/TK.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero__media-layer" data-scene="hk">
+        <video muted loop playsinline preload="auto" disablepictureinpicture controlslist="nodownload nofullscreen noremoteplayback" poster="assets/img/hero/hero-hk-poster.jpg">
+          <source src="assets/video/HK2.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero__media-layer" data-scene="vn">
+        <video muted loop playsinline preload="auto" disablepictureinpicture controlslist="nodownload nofullscreen noremoteplayback" poster="assets/img/hero/hero-vn-poster.jpg">
+          <source src="assets/video/VN.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+    
+    <!-- City indicator (top-right) -->
+    <div class="hero__cities" aria-hidden="true"> <span class="hero__city-dot is-active" data-i="0"></span>  <span class="hero__city-dot" data-i="2"></span> <span class="hero__city-dot" data-i="3"></span> <span class="hero__city-label" id="hero-city-label">TOKYO</span> </div>
+    
+    <!-- Telop (bottom-left) — JS が cities[] から差し替える -->
+    <div class="hero__telop" id="hero-telop" aria-live="polite"></div>
+    
+    <!-- Hero controls (PC only) — 前 / 一時停止 / 次 -->
+    <div class="hero__controls" aria-label="ヒーロー操作">
+      <button type="button" class="hero__ctrl hero__ctrl--prev" aria-label="前のシーン">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M15 6 L9 12 L15 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      </button>
+      <button type="button" class="hero__ctrl hero__ctrl--toggle" aria-label="一時停止" aria-pressed="false">
+      <svg class="hero__ctrl-icon hero__ctrl-icon--pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <rect x="7" y="6" width="3" height="12" fill="currentColor"/>
+        <rect x="14" y="6" width="3" height="12" fill="currentColor"/>
+      </svg>
+      <svg class="hero__ctrl-icon hero__ctrl-icon--play" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M8 5 L19 12 L8 19 Z" fill="currentColor"/>
+      </svg>
+      </button>
+      <button type="button" class="hero__ctrl hero__ctrl--next" aria-label="次のシーン">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M9 6 L15 12 L9 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      </button>
+    </div>
+  </section>
+  
+  <!-- =========================================================
+       CHAIRMAN'S MESSAGE  (SBI inspired layout)
+       ========================================================= -->
+  <section class="section chairman" aria-labelledby="chairman-h">
+    <div class="container">
+      <div class="section-header"> <span class="eyebrow">Message</span>
+        <h2 id="chairman-h" class="h2">代表メッセージ</h2>
+      </div>
+      <div class="chairman__grid">
+        <div class="chairman__text">
+          <h3 class="chairman__pull">専門性と誠実さで、最適解を。</h3>
+          <div class="chairman__body">
+            <p class="jp-justify">世界の資本市場が構造的な転換期を迎える中、日本企業の経営判断はかつてないほど複雑化しております。事業ポートフォリオの再編、クロスボーダー投資、不動産を含むオルタナティブ資産への配分——いずれの局面においても、利害から独立した客観的な助言の価値は、これまで以上に高まっております。</p>
+            <p class="jp-justify">私は、投資銀行におけるアドバイザリー業務に加え、プリンシパル投資、事業会社における投資戦略の策定、不動産ファイナンスと、ディールの両サイドに身を置いて参りました。買い手と売り手、アドバイザーとプリンシパル、双方の論理を理解した上で、お客さまにとって真に意味のある選択肢を提示すること——それが独立系投資銀行ブティックの存在意義であると考えております。</p>
+            <p class="jp-justify">当社は、Global Alliance Partners（GAP）を通じた世界20ヵ国超のパートナーとの連携のもと、クロスボーダー案件においてもお客さまの戦略実現を一貫して支援してまいります。専門性と誠実さをもって、皆様の信頼にお応えしてまいります。</p>
+          </div>
+        </div>
+        <figure class="chairman__photo">
+          <div class="chairman__photo-frame"> <img src="assets/img/team/shoji.png" alt="庄司 俊之"> </div>
+          <figcaption class="chairman__sign"> <span class="chairman__sign-company">キャピタル・クエスト株式会社</span> <span class="chairman__sign-title">代表取締役</span> <span class="chairman__sign-name">庄司 俊之 (CFA)</span> </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  
+  <!-- =========================================================
+       TRACK RECORD  (Houlihan-style full-bleed carousel, 16 deals)
+       ========================================================= -->
+  
+  <!-- =========================================================
+       GAP NETWORK (focal section)
+       ========================================================= -->
+    <!-- Representative profile (relocated from team) -->
+  <section class="section leader-bio-section">
+    <div class="container">
+      <details class="leader-bio">
+        <summary>代表者の経歴を見る</summary>
+        <div class="person-card__detail">
+          <p>庄司俊之は、野村證券における23年（うちニューヨーク8年）の投資銀行・プリンシパル投資キャリアを基盤として、その後の楽天、MAプラットフォーム、東海東京証券においてM&amp;Aアドバイザリーとプリンシパル投資の両面で経験を積んだ、CQCの実務統括責任者である。</p>
+          <p>野村時代は、米国・日本両市場における不動産ファイナンス・投資、ならびにプリンシパル投資業務に従事した。日米両市場における不動産関連案件の組成・執行経験は、REIT、CMBS（Commercial Mortgage-Backed Securities）等の不動産証券化案件への幅広い関与へと展開した。</p>
+          <p>野村以降のキャリアでは、楽天グループにおける事業企画とコーポレート・ベンチャー・キャピタル投資、MAプラットフォーム（森トラストグループ）における大型国際リゾート開発戦略、東海東京証券におけるM&amp;Aアドバイザリーといった、事業会社サイドのプリンシパル視点とアドバイザー双方の視点を蓄積した。これは、CQCにおいて売り手・買い手双方のロジックを翻訳しながらディールを組成する上での独自の強みとなっている。</p>
+          <p>専門領域は、キャピタル・マーケット取引、オルタナティブ投資、M&amp;A・資金調達アドバイザリー、不動産ファイナンスおよび不動産投資の4分野にわたる。</p>
+          <h4>職歴</h4>
+          <ul class="career-timeline">
+            <li><time>〜2009頃</time><span>野村證券（東京・ニューヨーク勤務、計23年。うちNY 8年。投資銀行業務、不動産ファイナンス・投資、プリンシパル投資）</span></li>
+            <li><time>〜2010s</time><span>楽天グループ（事業企画、ベンチャー・PE投資業務）</span></li>
+            <li><time>〜2010s</time><span>株式会社MAプラットフォーム（森トラストグループ／国際リゾート開発における戦略担当）</span></li>
+            <li><time>〜2020s</time><span>東海東京証券／その他金融機関（M&amp;Aアドバイザリー）</span></li>
+            <li><time>2026</time><span>キャピタル・クエスト株式会社 代表取締役（現任）</span></li>
+          </ul>
+          <h4>学歴・資格</h4>
+          <ul class="career-timeline">
+            <li><span>東京大学法学部 卒業</span></li>
+            <li><span>ミシガン大学 経営学修士（MBA）</span></li>
+            <li><span>米国CFA協会認定アナリスト（Chartered Financial Analyst）</span></li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </section>
+  <section class="gap-network" aria-labelledby="gap-h">
+    <div class="container">
+      <div class="section-header gap-network__header"> <span class="eyebrow">Global Alliance Partners</span>
+        <h2 id="gap-h">20ヵ国超の投資銀行ネットワーク</h2>
+        <p class="gap-network__lead">各国の独立系投資銀行が知見を持ち寄り、クロスボーダー案件を遂行します。</p>
+      </div>
+      <div class="gap-stats">
+        <div>
+          <div class="gap-stat__num"><span class="num">20+</span></div>
+          <div class="gap-stat__label">Countries</div>
+        </div>
+        <div>
+          <div class="gap-stat__num"><span class="num">5</span></div>
+          <div class="gap-stat__label">Continents</div>
+        </div>
+        <div>
+          <div class="gap-stat__num"><span class="num">2008</span></div>
+          <div class="gap-stat__label">Founded in Hong Kong</div>
+        </div>
+      </div>
+      
+      <!-- ============== GAP Brand Logo (white version on forest BG) ============== -->
+      <div class="gap-network__brand"> <a href="https://globalalliancepartners.com/" target="_blank" rel="noopener noreferrer" class="gap-network__brand-link" aria-label="Global Alliance Partners 公式サイト"> <img src="assets/img/gap/gap-logo-white-hd.png" alt="Global Alliance Partners" class="gap-network__brand-logo"> </a> </div>
+      
+      <!-- ============== Conference Photo ============== -->
+      <figure class="gap-network__conf"> <img src="assets/img/gap/group-shot-2026.jpg" alt="GAP Annual Conference 2026" class="gap-network__conf-img">
+        <figcaption class="gap-network__conf-caption">GAP Annual Conference · Bangkok, Thailand · 2026</figcaption>
+      </figure>
+      
+      <!-- ============== Orange CTA ============== -->
+      <div class="gap-network__cta"> <a href="https://globalalliancepartners.com/gap-members/"
+           class="gap-network__cta-btn"
+           target="_blank" rel="noopener noreferrer"> GAP公式サイトへ <span class="arrow" aria-hidden="true">→</span> </a> </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===========================================================
+     INLINE JS (タブ切替 — GAP Network / About)
+     =========================================================== --> 
+<script>
+
+// ===== Hero：TK → NY → HK → VN クロスフェード + テロップ + 操作ボタン =====
+(function () {
+  var layers = document.querySelectorAll('.hero__media-layer');
+  if (layers.length < 2) return;
+
+  var telop     = document.getElementById('hero-telop');
+  var cityLabel = document.getElementById('hero-city-label');
+  var cityDots  = document.querySelectorAll('.hero__city-dot');
+  var prevBtn   = document.querySelector('.hero__ctrl--prev');
+  var nextBtn   = document.querySelector('.hero__ctrl--next');
+  var toggleBtn = document.querySelector('.hero__ctrl--toggle');
+
+  var cities = [
+    { label:'TOKYO',     keywordJp:'独立であり続ける',         keywordEn:'INDEPENDENT' },
+    { label:'HONG KONG', keywordJp:'20ヵ国超のネットワーク',   keywordEn:'CROSSBORDER NETWORK' },
+    { label:'VIETNAM',   keywordJp:'高成長アジアへの接続',     keywordEn:'THE NEXT FUTURE', theme:'light' }
+  ];
+
+  var CITY_DURATION = 8500;   // 1サイクル
+  var EXIT_TRIGGER  = 6500;   // テロップ退場開始
+  var CROSSFADE_MS  = 2100;   // CSS opacity transition (2s) + 余裕
+  var WARMUP_MS     = 300;    // 次動画 preload（デコード遅延回避）
+
+  var idx = 0;
+  var isPaused = false;
+  var exitTimer = null;
+  var cycleTimers = [];
+
+  // 初期化：先頭のみ再生
+  layers.forEach(function (l, i) {
+    var v = l.querySelector('video');
+    if (!v) return;
+    if (i === 0) { v.play().catch(function(){}); }
+    else { v.pause(); v.currentTime = 0; }
+  });
+
+  function renderTelop(i) {
+    if (!telop) return;
+    var c = cities[i];
+    telop.className = 'hero__telop is-enter' + (c.theme === 'light' ? ' is-light' : '');
+    telop.innerHTML =
+      '<div class="hero__telop-bar is-enter" id="hero-telop-bar">' +
+        '<div class="hero__telop-jp">' + c.keywordJp + '</div>' +
+        '<div class="hero__telop-en">' + c.keywordEn + '</div>' +
+      '</div>';
+  }
+
+  function triggerExit() {
+    if (!telop) return;
+    telop.classList.remove('is-enter');
+    telop.classList.add('is-exit');
+    var bar = document.getElementById('hero-telop-bar');
+    if (bar) {
+      bar.classList.remove('is-enter');
+      bar.classList.add('is-exit');
+    }
+  }
+
+  function updateIndicator(i) {
+    cityDots.forEach(function (d, j) { d.classList.toggle('is-active', j === i); });
+    if (cityLabel) cityLabel.textContent = cities[i].label;
+  }
+
+  function warmupLayer(i) {
+    var v = layers[i] && layers[i].querySelector('video');
+    if (!v) return;
+    v.currentTime = 0;
+    var p = v.play();
+    if (p && p.catch) p.catch(function(){});
+  }
+
+  function activateLayer(nextIdx) {
+    if (nextIdx === idx) return;
+    var prevIdx = idx;
+    var next = layers[nextIdx].querySelector('video');
+    if (next && next.paused) next.play().catch(function(){});
+    layers[prevIdx].classList.remove('is-active');
+    idx = nextIdx;
+    layers[idx].classList.add('is-active');
+    // 旧動画はフェードアウト後に停止＋次サイクル用にリセット
+    setTimeout(function () {
+      var prev = layers[prevIdx].querySelector('video');
+      if (prev) { prev.pause(); prev.currentTime = 0; }
+    }, CROSSFADE_MS);
+  }
+
+  function goToCity(i) {
+    if (exitTimer) { clearTimeout(exitTimer); exitTimer = null; }
+    activateLayer(i);
+    renderTelop(i);
+    updateIndicator(i);
+    if (!isPaused) exitTimer = setTimeout(triggerExit, EXIT_TRIGGER);
+  }
+
+  function clearCycle() {
+    cycleTimers.forEach(clearTimeout);
+    cycleTimers = [];
+    if (exitTimer) { clearTimeout(exitTimer); exitTimer = null; }
+  }
+
+  function scheduleNext() {
+    var t1 = setTimeout(function () {
+      var nextIdx = (idx + 1) % cities.length;
+      warmupLayer(nextIdx);
+      var t2 = setTimeout(function () {
+        goToCity(nextIdx);
+        if (!isPaused) scheduleNext();
+      }, WARMUP_MS);
+      cycleTimers.push(t2);
+    }, CITY_DURATION - WARMUP_MS);
+    cycleTimers.push(t1);
+  }
+
+  function startCycle() {
+    isPaused = false;
+    if (!exitTimer) exitTimer = setTimeout(triggerExit, EXIT_TRIGGER);
+    scheduleNext();
+  }
+
+  function pauseHero() {
+    isPaused = true;
+    clearCycle();
+    var v = layers[idx].querySelector('video');
+    if (v) v.pause();
+    if (toggleBtn) {
+      toggleBtn.classList.add('is-paused');
+      toggleBtn.setAttribute('aria-pressed', 'true');
+      toggleBtn.setAttribute('aria-label', '再生');
+    }
+  }
+
+  function playHero() {
+    var v = layers[idx].querySelector('video');
+    if (v) v.play().catch(function(){});
+    startCycle();
+    if (toggleBtn) {
+      toggleBtn.classList.remove('is-paused');
+      toggleBtn.setAttribute('aria-pressed', 'false');
+      toggleBtn.setAttribute('aria-label', '一時停止');
+    }
+  }
+
+  function jumpTo(i) {
+    var wasPaused = isPaused;
+    clearCycle();
+    warmupLayer(i);
+    goToCity(i);
+    if (!wasPaused) startCycle();
+  }
+
+  if (prevBtn)   prevBtn.addEventListener('click', function () { jumpTo((idx - 1 + cities.length) % cities.length); });
+  if (nextBtn)   nextBtn.addEventListener('click', function () { jumpTo((idx + 1) % cities.length); });
+  if (toggleBtn) toggleBtn.addEventListener('click', function () { isPaused ? playHero() : pauseHero(); });
+
+  // 初期表示 → サイクル開始
+  renderTelop(0);
+  updateIndicator(0);
+  startCycle();
+})();
+</script> 
+<script src="assets/js/site.js?v=20260513a" defer></script> 
+
+<!-- ===========================================================
+     FOOTER
+     =========================================================== --> 
+<!-- JVCA Support Section -->
+<section class="site-support" aria-label="JVCA支援">
+  <div class="container">
+    <div class="site-support__inner">
+      <div class="site-support__logo"> <img src="assets/img/group/jvca.png" alt="JVCA — 日本・ベトナム文化交流協会"> </div>
+      <div class="site-support__text">
+        <p class="site-support__line">当社は <a href="https://www.jvca.or.jp/" target="_blank" rel="noopener noreferrer">一般財団法人 日本・ベトナム文化交流協会</a> <br class="br-mobile">
+          の活動を支援しています</p>
+        <p class="site-support__since">Foundation of Japan-Vietnam Cultural Association — Since 1992</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div class="site-footer__brand"> <img src="assets/logo/cqc/cqc-logo-white.png" alt="Capital Quest Corporation, Ltd."> </div>
+      <div class="site-footer__col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="about.html">会社情報</a></li>
+          <li><a href="services.html">事業内容</a></li>
+          <li><a href="track-record.html">過去実績</a></li>
+          
+          <li><a href="mailto:info@capital-qc.co.jp?subject=Capital%20Quest%20Corporation%20%E5%85%AC%E5%BC%8FHP%E3%81%8B%E3%82%89%E3%81%AE%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h4>Contact</h4>
+        <address>
+        〒101-0047<br>
+        東京都千代田区内神田 1-13-7<br>
+        四国ビルディング<br>
+        TEL 03-4543-1150<br>
+        FAX 03-4543-1069
+        </address>
+      </div>
+      <div class="site-footer__col">
+        <h4>Group</h4>
+        <ul>
+          <li>Capital Financial Holdings</li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom"> <span>&copy; 2026 Capital Quest Corporation, Ltd.</span> <span>Member of Capital Financial Holdings Group</span> </div>
+  </div>
+</footer>
+</body>
+</html>
