@@ -2774,3 +2774,10 @@ ul, ol { list-style: none; }
     height: 138px;
   }
 }
+
+
+/* ===== Representative message body — larger for balance (index top) ===== */
+.chairman__body p { font-size: 1.25rem; line-height: 1.9; }
+@media (max-width: 768px) {
+  .chairman__body p { font-size: 1.0625rem; line-height: 1.85; }
+}
